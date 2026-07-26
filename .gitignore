@@ -43,6 +43,9 @@
 !notebook_colab.ipynb
 !notebook_colab_aluno.ipynb
 
+# Notebooks das minhas atividades
+!**/atividades*.ipynb
+
 # Checkpoints e cache do Jupyter/Colab
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
