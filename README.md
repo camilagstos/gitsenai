@@ -34,6 +34,8 @@
 Repositório de consulta da **Turma T5** durante o Módulo Básico (*Manipulação de Dados com Python e SQL*). Aqui ficam:
 
 - O material de estudo de cada semana (teoria + notebook prático)
+- O [Guia de configuração do GitHub](GUIA_GITHUB.md) — Git, GitHub e VS Code, num guia próprio sem prazo atrelado a uma aula
+- O [gabarito oficial das atividades e squads](gabarito_das_atividades/) de cada semana já encerrada
 
 ---
 
@@ -42,6 +44,11 @@ Repositório de consulta da **Turma T5** durante o Módulo Básico (*Manipulaç�
 ```
 turma05-analise-de-dados-com-python/
 ├── README.md
+├── GUIA_GITHUB.md                          ← configuração de Git/GitHub/VS Code (sem prazo de aula)
+├── gabarito_das_atividades/                ← gabarito oficial das semanas já encerradas
+│   └── Semana0X/
+│       ├── Semana0X_gabarito.html
+│       └── Semana0X_gabarito.ipynb
 ├── 01_Introducao_Fundamentos_Analise_Dados/
 │   └── Aluno/
 │       ├── html/aula_teorica.html   ← teoria + quiz interativo
@@ -65,7 +72,16 @@ turma05-analise-de-dados-com-python/
 │       ├── dataset/                        ← arquivos reais usados no notebook (CSV)
 │       ├── html/aula_teorica.html          ← teoria + quiz interativo
 │       └── notebook_colab.ipynb            ← notebook prático (abra no Google Colab)
-└── 06_..._ (próximas semanas, liberadas ao longo do curso)
+├── 06_Limpeza_e_Transformacao_de_Dados/
+│   └── Aluno/
+│       ├── dataset/                        ← arquivos reais usados no notebook (CSV)
+│       ├── html/aula_teorica.html          ← teoria + quiz interativo
+│       └── notebook_colab.ipynb            ← notebook prático (abra no Google Colab)
+├── 07_Visualizacao_e_Pipelines/
+│   └── Aluno/
+│       ├── html/aula_teorica.html          ← teoria + quiz interativo
+│       └── notebook_colab.ipynb            ← notebook prático (abra no Google Colab)
+└── 08_..._ a 12_..._ (Semanas 08–12, liberadas ao longo do curso)
 ```
 
 ---
@@ -81,8 +97,13 @@ Escolha a forma que preferir para acessar o material de cada semana:
 | 03 | Versionamento e Python Local | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/03_Versionamento_e_Python_Local/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana03.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/03_Versionamento_e_Python_Local/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana03.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/03_Versionamento_e_Python_Local/Aluno/html/aula_teorica.html) |
 | 04 | Manipulação de Arquivos e Modularização | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/04_Manipulacao_Arquivos_e_Modularizacao/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana04.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/04_Manipulacao_Arquivos_e_Modularizacao/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana04.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/04_Manipulacao_Arquivos_e_Modularizacao/Aluno/html/aula_teorica.html) |
 | 05 | Pandas e NumPy | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/05_Pandas_e_NumPy/Aluno/notebook_colab.ipynb) | [⬇ Semana05.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/05_Pandas_e_NumPy/Aluno/notebook_colab.ipynb) | [⬇ Semana05.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/05_Pandas_e_NumPy/Aluno/html/aula_teorica.html) |
-| 06 | Limpeza e Transformação de Dados | *em breve* | *em breve* | *em breve* |
-| 07 | Visualização e Pipelines | *em breve* | *em breve* | *em breve* |
+| 06 | Limpeza e Transformação de Dados | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/06_Limpeza_e_Transformacao_de_Dados/Aluno/notebook_colab.ipynb) | [⬇ Semana06.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/06_Limpeza_e_Transformacao_de_Dados/Aluno/notebook_colab.ipynb) | [⬇ Semana06.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/06_Limpeza_e_Transformacao_de_Dados/Aluno/html/aula_teorica.html) |
+| 07 | Visualização e Pipelines | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/07_Visualizacao_e_Pipelines/Aluno/notebook_colab.ipynb) | [⬇ Semana07.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/07_Visualizacao_e_Pipelines/Aluno/notebook_colab.ipynb) | [⬇ Semana07.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/07_Visualizacao_e_Pipelines/Aluno/html/aula_teorica.html) |
+| 08 | Banco de Dados Relacionais e Não Relacionais | *em breve* | *em breve* | *em breve* |
+| 09 | Modelagem de Dados e SQL | *em breve* | *em breve* | *em breve* |
+| 10 | SQL Avançado | *em breve* | *em breve* | *em breve* |
+| 11 | Python + PostgreSQL | *em breve* | *em breve* | *em breve* |
+| 12 | Python + PostgreSQL para ETL | *em breve* | *em breve* | *em breve* |
 
 > **⬇ SemanaNNN.ipynb** e **⬇ SemanaNNN.html** — abrem a página do arquivo no GitHub. Para baixar: clique no ícone **⬇** (*Download raw file*) no **canto superior direito** da página.
 > Após baixar: abra o `.ipynb` no Colab ou VS Code; abra o `.html` no navegador (funciona offline).
