@@ -87,7 +87,11 @@ turma05-analise-de-dados-com-python/
 │       ├── img/                            ← diagramas (SVG) de modelagem relacional e NoSQL
 │       ├── html/aula_teorica.html          ← teoria + quiz interativo
 │       └── notebook_colab_aluno.ipynb      ← notebook prático (abra no Google Colab)
-└── 09_..._ a 12_..._ (Semanas 09–12, liberadas ao longo do curso)
+├── 09_..._ a 12_..._ (Semanas 09–12, liberadas ao longo do curso)
+├── T5_miniprojeto/
+│   └── Aluno/                              ← Mini-Projeto M1S07 resolvido (notebook + dataset/ + README)
+└── T5_Projeto_Final/
+    └── Aluno/                              ← Projeto Final: pipeline ETL (scripts + notebooks + README)
 ```
 
 ---
@@ -108,12 +112,25 @@ Escolha a forma que preferir para acessar o material de cada semana:
 | 08 | Banco de Dados Relacionais e Não Relacionais | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/08_Banco_de_Dados_Relacionais_e_Nao_Relacionais/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana08.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/08_Banco_de_Dados_Relacionais_e_Nao_Relacionais/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana08.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/08_Banco_de_Dados_Relacionais_e_Nao_Relacionais/Aluno/html/aula_teorica.html) | [📄 Apostilas](https://github.com/cfneves/turma05-analise-de-dados-com-python/tree/main/08_Banco_de_Dados_Relacionais_e_Nao_Relacionais/Aluno/pdf) |
 | 09 | Modelagem de Dados e SQL | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/09_Modelagem_de_Dados_e_SQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana09.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/09_Modelagem_de_Dados_e_SQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana09.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/09_Modelagem_de_Dados_e_SQL/Aluno/html/aula_teorica.html) | [📄 Apostilas](https://github.com/cfneves/turma05-analise-de-dados-com-python/tree/main/09_Modelagem_de_Dados_e_SQL/Aluno/pdf) |
 | 10 | SQL Avançado | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/10_SQL_Avancado/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana10.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/10_SQL_Avancado/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana10.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/10_SQL_Avancado/Aluno/html/aula_teorica.html) | [📄 Apostilas](https://github.com/cfneves/turma05-analise-de-dados-com-python/tree/main/10_SQL_Avancado/Aluno/pdf) |
-| 11 | Integração Python e SQL | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana11.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana11.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/html/aula_teorica.html) | [🎁 Bônus PostgreSQL](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_bonus_postgresql.ipynb) |
-| 12 | Python + PostgreSQL para ETL | *em breve* | *em breve* | *em breve* | - |
+| 11 | Integração Python e SQL | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana11.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana11.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/html/aula_teorica.html) | [🎁 Bônus PostgreSQL](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_bonus_postgresql.ipynb) <br> [🎁 Bônus ETL Medalhão](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/11_Python_e_PostgreSQL/Aluno/notebook_bonus_etl_medalhao.ipynb) |
+| 12 | Python + PostgreSQL para ETL | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/12_Python_PostgreSQL_para_ETL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana12.ipynb](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/12_Python_PostgreSQL_para_ETL/Aluno/notebook_colab_aluno.ipynb) | [⬇ Semana12.html](https://github.com/cfneves/turma05-analise-de-dados-com-python/blob/main/12_Python_PostgreSQL_para_ETL/Aluno/html/aula_teorica.html) | - |
 
 > **⬇ SemanaNNN.ipynb** e **⬇ SemanaNNN.html** — abrem a página do arquivo no GitHub. Para baixar: clique no ícone **⬇** (*Download raw file*) no **canto superior direito** da página.
 > Após baixar: abra o `.ipynb` no Colab ou VS Code; abra o `.html` no navegador (funciona offline).
 > **📄 Apostilas** — abre a pasta com os PDFs de referência daquela semana; clique em cada arquivo e depois no ícone **⬇** pra baixar.
+
+---
+
+## Projetos resolvidos
+
+Os dois projetos avaliativos do Módulo 1, prontos para você **executar na sua máquina** e estudar cada etapa. Cada pasta tem um `README.md` com os comandos.
+
+| Projeto | O que faz | Onde roda | Pasta |
+|---|---|---|---|
+| **Mini-Projeto (M1S07)** — Análise Exploratória da base Varejo | lê 830 mil itens de compras com `csv.DictReader` e Pandas, limpa (nulos, `#N/D`, duplicatas, datas), valida o `CO_ID`, calcula estatísticas, agrupa e conclui | VS Code ou [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cfneves/turma05-analise-de-dados-com-python/blob/main/T5_miniprojeto/Aluno/notebook_colab_aluno.ipynb) | [📁 T5_miniprojeto/Aluno](https://github.com/cfneves/turma05-analise-de-dados-com-python/tree/main/T5_miniprojeto/Aluno) |
+| **Projeto Final (M1S13)** — Pipeline ETL de Viagens a Serviço | baixa os dados do Portal da Transparência e monta as camadas Raw, Silver e Gold no PostgreSQL, com 7 perguntas de negócio e gráficos | VS Code + PostgreSQL local | [📁 T5_Projeto_Final/Aluno](https://github.com/cfneves/turma05-analise-de-dados-com-python/tree/main/T5_Projeto_Final/Aluno) |
+
+> Para baixar uma pasta inteira: na página inicial do repositório, clique em **Code → Download ZIP**, descompacte e abra a pasta do projeto no VS Code (**File → Open Folder**).
 
 ---
 
